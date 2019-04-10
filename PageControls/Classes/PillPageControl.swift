@@ -29,7 +29,7 @@ import UIKit
     
     // MARK: - Appearance
     
-    @IBInspectable open var pillSize: CGSize = CGSize(width: 20, height: 2.5) {
+    @IBInspectable open var pillSize: CGSize = CGSize(width: 23, height: 2.5) {
         didSet {
             
         }
@@ -44,7 +44,7 @@ import UIKit
             inactiveLayers.forEach() { $0.backgroundColor = inactiveTint.cgColor }
         }
     }
-    @IBInspectable open var indicatorPadding: CGFloat = 7 {
+    @IBInspectable open var indicatorPadding: CGFloat = 5 {
         didSet {
             layoutInactivePageIndicators(inactiveLayers)
         }
